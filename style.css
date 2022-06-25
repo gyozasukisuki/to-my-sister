@@ -1,1 +1,53 @@
+@font-face {
+    font-family: 'Pomeranian';
+    src: url("./fonts/Pomeranian-Regular.ttf");
+}
 
+@font-face {
+    font-family: 'Azuki';
+    src: url("./fonts/azukiLP.ttf");
+}
+
+h1{
+    background-color: #f9f9f9;
+    font-family:'Pomeranian';
+    display: inline-block;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h2{
+    font-family: 'Pomeranian';
+}
+
+body{
+    background-color: #CDF0EA;
+    text-align: center;
+}
+
+#about{
+    background-color: #F6C6EA;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#createdby{
+    background-color: #f9f9f9;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#tosister{
+    margin-top: 2cm;
+    background-color: #FAF4B7;
+    display:inline-block;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+p{
+    font-family: 'Azuki';
+}
