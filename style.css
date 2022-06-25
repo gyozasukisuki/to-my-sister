@@ -8,6 +8,16 @@
     src: url("./fonts/azukiLP.ttf");
 }
 
+* {
+    float:none;
+    position:static;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1{
     background-color: #f9f9f9;
     font-family:'Pomeranian';
@@ -50,4 +60,23 @@ body{
 
 p{
     font-family: 'Azuki';
+}
+
+.changeline{
+    display:none;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        font-size: 32px;
+    }
+
+    #createdby{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .changeline{
+        display:block;
+    }
 }
