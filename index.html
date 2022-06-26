@@ -7,27 +7,31 @@
         <link rel="stylesheet" href="./style.css"/>
     </head>
     <body>
-        <div style="text-align: center;">
-            <h1 style="margin-top: 2cm;">お姉ちゃん、<br class="changeline"><span style="color:crimson">おたんじょうび</span><br class="changeline">おめでとう!</h1>
+        <header id="header" style="text-align: center;">
+            <h1 style="position:fixed; width:70%; top: 50%;left: 50%;transform: translate(-50%, -50%); text-align: center;">お姉ちゃん、<br class="changeline"><span style="color:crimson">おたんじょうび</span><br class="changeline">おめでとう!</h1>
+        </header>
+        <div id="container">
+            <div class="fadeUpTrigger" style="text-align: center; margin-top: 2cm;" id="about">
+                <h2 style="margin-bottom: 50px;">このサイトについて</h2>
+                <p>このサイトは、お姉ちゃんの誕生日を<br class="changeline">祝うために作られたサイトです。</p>
+                <p>このサイトの制作は<br class="changeline"><b>2022/06/24</b>から始まっていました。</p>
+                <p>わかったかもしれませんが、<br class="changeline">このサイトを作り始めたのは<br class="changeline">テスト期間真っ最中です。</p>
+                <p>このとき、<br class="changeline">お姉ちゃんは物理に悶えていました。</p>
+                <p>結果はどうだったんだろう。<br class="changeline">作っている僕はまだ知りません。</p>
+                <p>まぁ、このサイトを見るお姉ちゃんの<br class="changeline">誕生日は、テスト中なんだけどね。</p>
+            </div>
+            <div class="fadeUpTrigger" id="createdby">
+                <h2>Created by</h2>
+                <b>Gyozasukisuki</b>
+            </div>
+            <br>
+            <div class="fadeUpTrigger" id="tosister">
+                <h1>お姉ちゃんへ</h1>
+                <p>なにか欲しいものはありますか?</p>
+                <p>してみたいことはありますか?</p>
+            </div>
         </div>
-        <div style="text-align: center; margin-top: 2cm;" id="about">
-            <h2 style="margin-bottom: 50px;">このサイトについて</h2>
-            <p>このサイトは、お姉ちゃんの誕生日を<br class="changeline">祝うために作られたサイトです。</p>
-            <p>このサイトの制作は<br class="changeline"><b>2022/06/24</b>から始まっていました。</p>
-            <p>わかったかもしれませんが、<br class="changeline">このサイトを作り始めたのは<br class="changeline">テスト期間真っ最中です。</p>
-            <p>このとき、<br class="changeline">お姉ちゃんは物理に悶えていました。</p>
-            <p>結果はどうだったんだろう。<br class="changeline">作っている僕はまだ知りません。</p>
-            <p>まぁ、このサイトを見るお姉ちゃんの<br class="changeline">誕生日は、テスト中なんだけどね。</p>
-        </div>
-        <div id="createdby">
-            <h2>Created by</h2>
-            <b>Gyozasukisuki</b>
-        </div>
-        <br>
-        <div id="tosister">
-            <h1>お姉ちゃんへ</h1>
-            <p>なにか欲しいものはありますか?</p>
-            <p>してみたいことはありますか?</p>
-        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
