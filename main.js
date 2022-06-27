@@ -39,10 +39,14 @@ function sleep(waitSec, callbackFunc) {
 
 }
 
+function scrollTop(){
+    scrollTo(0,0);
+}
 
 $(window).on('load', function() {
-    sleep(1,function(){
+    sleep(2,function(){
         $('#loader').hide('slow');
+        scrollTop();
     });
 	
 });
