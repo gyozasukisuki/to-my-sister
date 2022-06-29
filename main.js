@@ -39,8 +39,23 @@ function sleep(waitSec, callbackFunc) {
 
 }
 
+function checkMassage(name){
+    if(name === "SS"){
+        return "<b>お姉ちゃんへ</b><br>もうお姉ちゃんは今日で16歳なんだね。16年って長いの? 短いの?<br class='changeline'> 僕にはまだわかりません。<br>今日に至るまで、<br class='changeline'>沢山の人に支えられてきたと思う。<br class='changeline'>その中には、<br class='changeline'>いとこも、友達もいたと思う。<br>でも、その分お姉ちゃんもたくさんの人を支えてきたんじゃないかなと思うよ。<br>このサイトを作るだけでも<br class='changeline'>たくさんの人の力を借りました。<br class='changeline'>もちろんパパやママもだけれど、HTMLの書き方を載せてくれているサイトを作った人にも支えてもらいました。<br>お姉ちゃんにも<br class='changeline'>たくさん支えてもらいました。<br>お姉ちゃんは本当に<b style='color:red'>心が広い</b>と感じるよ。尊敬してます...<br>お姉ちゃんは<br class='changeline'>これから何に興味を持つのかなぁ<br>まぁとりあえずテストは頑張ってねーー<br>おたんじょうびおめでとう!<br>by テスト後のS.S";
+    }
+}
+
+function showMassage(massage){    
+    $('#the-massage').html(massage);
+    $('#the-massage').show('slow');
+}
+
 function scrollTop(){
     scrollTo(0,0);
+}
+
+function showAfterRead(){
+    $('#after-read').show('fast');
 }
 
 $(window).on('load', function() {
