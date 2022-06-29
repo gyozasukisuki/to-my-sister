@@ -32,9 +32,35 @@
             </div>
             <br>
             <div class="fadeUpTrigger" id="tosister">
-                <h1>お姉ちゃんへ</h1>
-                <p>なにか欲しいものはありますか?</p>
-                <p>してみたいことはありますか?</p>
+                <h1>お姉ちゃんへ<br class="changeline"><span style="color:red" id="massage">＜みんなからのメッセージ＞</span></h1>
+                <p>お姉ちゃんに関わりのある人から、<br class="changeline">メッセージを頂いています!</p>
+            </div>
+            <div id="by">
+            <table>
+                <tr><td><input class="byname" type="button" value="S.S"></td>
+                    <td><input class="byname" type="button" value="S.S"></td>
+                    <td><input class="byname" type="button" value="S.S"></td>
+                    <td><input class="byname" type="button" value="S.S"></td>
+                    <td><input class="byname"type="button" onclick="showMassage(checkMassage('SS'))" value="S.S"></td></tr>
+            </table>
+            </div>
+            <br>
+            <div id="massage-div">
+                <h2>The Massage</h2>
+                <p id="the-massage" hidden></p>
+            </div>
+
+            <p style="margin-top: 30px;">読み終わりましたか?</p>
+            <input id="YES" type="button" onclick="showAfterRead()" value="YES"/>
+            <div id="after-read" hidden>
+                <p>どうでしたか、このサイトは。<br class='changeline'>僕の中では意外といい感じだと思っています。</p>
+                <p>このサイトを通して、<br class='changeline'>一息つけたなら僕は満足です。</p>
+                <p>パパの誕生日では動画を作って</p>
+                <p>お姉ちゃんの誕生日ではサイトを作って。</p>
+                <p>ママの誕生日はどうしようかなぁ</p>
+                <p>もう締めの言葉は決まっています。</p>
+                <p style="font-size:small;">せーの</p>
+                <h1 style="color:#fabf14; -webkit-text-stroke: 1px black;">おたんじょうび<br class='changeline'>おめでとう!</h1>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
