@@ -48,6 +48,8 @@ function checkMassage(name){
         return "誕生日おめでとう😁<br>勉強教えてください。";
     }else if(name === "MaMa"){
         return "ママは、お姉ちゃんが、<br class='changeline'><b>元気</b>に<b>楽しく</b>毎日過ごしてくれたら<br class='changeline'>うれしいよ。";
+    }else if(name === "PaPa"){
+        return "東京ドームにつれてってね。<br class='changeline'>楽しみだなぁ。<br class='changeline'>あっ おめでとう。";
     }
 }
 
