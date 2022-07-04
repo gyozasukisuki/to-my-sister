@@ -47,9 +47,9 @@ function checkMassage(name){
     }else if(name === "OK"){
         return "誕生日おめでとう😁<br>勉強教えてください。";
     }else if(name === "MaMa"){
-        return "ママは、お姉ちゃんが、<br class='changeline'><b>元気</b>に<b>楽しく</b>毎日過ごしてくれたら<br class='changeline'>うれしいよ。";
+        return "お誕生日おめでとう。<br class='changeline'>ママは、お姉ちゃんが、<br class='changeline'><b>元気</b>に<b>楽しく</b>毎日過ごしてくれたら<br class='changeline'>うれしいよ。<br class='changeline'>好きなことや好きなものを大切に、<br class='changeline'>めいっぱい楽しんでね。<br class='changeline'>いつも応援しています。";
     }else if(name === "PaPa"){
-        return "東京ドームにつれてってね。<br class='changeline'>楽しみだなぁ。<br class='changeline'>あっ おめでとう。";
+        return "勉強もクラブも<br class='changeline'>悔いのないように<br class='changeline'>毎日を過ごしてね!<br class='changeline'>そしてパパたちを<br class='changeline'>東京ドームにつれてって遅れ。<br class='changeline'>あ、誕生日おめでとう!";
     }
 }
 
